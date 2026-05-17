@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Strona-1" id="sFpsVJZV375N0dwTC9qN">
+    <mxGraphModel dx="1178" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-123" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="415" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-124" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Gotowy do eksploatacji" vertex="1">
+          <mxGeometry height="60" width="180" x="340" y="340" as="geometry">
+            <mxRectangle height="30" width="160" x="670" y="1190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-125" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="W naprawie" vertex="1">
+          <mxGeometry height="60" width="160" x="190" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="W przeglądzie" vertex="1">
+          <mxGeometry height="60" width="160" x="560" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-127" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Wycofany" vertex="1">
+          <mxGeometry height="60" width="160" x="350" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-128" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="415" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-129" edge="1" parent="1" style="endArrow=block;html=1;rounded=0;fontFamily=Helvetica;fontSize=11;strokeColor=#434343;strokeWidth=1;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=#ffffff;" target="6v6emsOnz5A-iQLgqdJH-124" value="rejestracja pojazdu">
+          <mxGeometry relative="1" x="-0.4286" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="430" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-130" edge="1" parent="1" source="6v6emsOnz5A-iQLgqdJH-124" style="endArrow=block;html=1;rounded=1;fontFamily=Helvetica;fontSize=11;strokeColor=#434343;strokeWidth=1;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="6v6emsOnz5A-iQLgqdJH-125" value="zmienStatus() / awaria">
+          <mxGeometry relative="1" x="0.263" y="35" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-131" edge="1" parent="1" source="6v6emsOnz5A-iQLgqdJH-125" style="endArrow=block;html=1;rounded=1;fontFamily=Helvetica;fontSize=11;strokeColor=#434343;strokeWidth=1;endFill=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="6v6emsOnz5A-iQLgqdJH-124" value="zmienStatus() / naprawiono">
+          <mxGeometry relative="1" x="-0.178" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="230" y="310" />
+              <mxPoint x="385" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-132" edge="1" parent="1" source="6v6emsOnz5A-iQLgqdJH-124" style="endArrow=block;html=1;rounded=1;fontFamily=Helvetica;fontSize=11;strokeColor=#434343;strokeWidth=1;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="6v6emsOnz5A-iQLgqdJH-126" value="zmienStatus() / termin przeglądu">
+          <mxGeometry relative="1" x="-0.4581" y="-50" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-133" edge="1" parent="1" source="6v6emsOnz5A-iQLgqdJH-126" style="endArrow=block;html=1;rounded=1;fontFamily=Helvetica;fontSize=11;strokeColor=#434343;strokeWidth=1;endFill=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="6v6emsOnz5A-iQLgqdJH-124" value="zmienStatus() / wynik pozytywny">
+          <mxGeometry relative="1" x="-0.2769" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="680" y="310" />
+              <mxPoint x="475" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-134" edge="1" parent="1" source="6v6emsOnz5A-iQLgqdJH-126" style="endArrow=block;html=1;rounded=1;fontFamily=Helvetica;fontSize=11;strokeColor=#434343;strokeWidth=1;endFill=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="6v6emsOnz5A-iQLgqdJH-125" value="">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-153" connectable="0" parent="6v6emsOnz5A-iQLgqdJH-134" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ZmienStatus() /&amp;nbsp;wykryto usterke" vertex="1">
+          <mxGeometry relative="1" x="-0.278" as="geometry">
+            <mxPoint x="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-135" edge="1" parent="1" source="6v6emsOnz5A-iQLgqdJH-124" style="endArrow=block;html=1;rounded=1;fontFamily=Helvetica;fontSize=11;strokeColor=#434343;strokeWidth=1;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6v6emsOnz5A-iQLgqdJH-127" value="zmienStatus() / zużycie">
+          <mxGeometry relative="1" x="-0.3077" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-136" edge="1" parent="1" source="6v6emsOnz5A-iQLgqdJH-125" style="endArrow=block;html=1;rounded=1;fontFamily=Helvetica;fontSize=11;strokeColor=#434343;strokeWidth=1;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="6v6emsOnz5A-iQLgqdJH-127" value="ZmienStatus() / nieopłacalna naprawa">
+          <mxGeometry relative="1" x="0.0907" y="15" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-137" edge="1" parent="1" source="6v6emsOnz5A-iQLgqdJH-127" style="endArrow=block;html=1;rounded=1;fontFamily=Helvetica;fontSize=11;strokeColor=#434343;strokeWidth=1;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6v6emsOnz5A-iQLgqdJH-128" value="złomowanie">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-171" parent="1" style="ellipse;html=1;shape=startState;fillColor=#ffffff;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="344" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="6v6emsOnz5A-iQLgqdJH-183" edge="1" parent="1" source="6v6emsOnz5A-iQLgqdJH-171" style="endArrow=block;html=1;rounded=1;fontFamily=Helvetica;fontSize=11;strokeColor=#ffffff;strokeWidth=1;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#ffffff;" value="zalogowanie do systemu">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="359" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
