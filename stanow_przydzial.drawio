@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Strona-1" id="21AORZhnFf37Ez5sDLlH">
+    <mxGraphModel dx="1212" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0vWK8qirqWJCidCv03Nb-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="384" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0vWK8qirqWJCidCv03Nb-2" edge="1" parent="1" source="0vWK8qirqWJCidCv03Nb-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="399" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0vWK8qirqWJCidCv03Nb-3" connectable="0" parent="0vWK8qirqWJCidCv03Nb-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="utworz() / dyspozytor tworzy przydział" vertex="1">
+          <mxGeometry relative="1" x="0.1067" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-5" edge="1" parent="1" source="xf25vULD14ypv7yNO1Zm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xf25vULD14ypv7yNO1Zm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-6" connectable="0" parent="xf25vULD14ypv7yNO1Zm-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Kurs.rozpocznij() / kierowca potwierdza odjazd" vertex="1">
+          <mxGeometry relative="1" x="0.1533" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-13" edge="1" parent="1" source="xf25vULD14ypv7yNO1Zm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xf25vULD14ypv7yNO1Zm-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-15" connectable="0" parent="xf25vULD14ypv7yNO1Zm-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="anuluj() / dyspozytor odwołuje kurs przed rozpoczęciem" vertex="1">
+          <mxGeometry relative="1" x="0.7765" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Zaplanowany" vertex="1">
+          <mxGeometry height="40" width="120" x="339" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-11" edge="1" parent="1" source="xf25vULD14ypv7yNO1Zm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xf25vULD14ypv7yNO1Zm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-12" connectable="0" parent="xf25vULD14ypv7yNO1Zm-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Kurs.zakoncz() / kierowca potwierdza przyjazd do przystanku końcowego" vertex="1">
+          <mxGeometry relative="1" x="0.015" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-14" edge="1" parent="1" source="xf25vULD14ypv7yNO1Zm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-16" connectable="0" parent="xf25vULD14ypv7yNO1Zm-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Kurs.odwolaj() / usterka krytyczna pojazdu uniemożliwia dalszą jazdę" vertex="1">
+          <mxGeometry relative="1" x="0.7435" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="W realizacji" vertex="1">
+          <mxGeometry height="40" width="120" x="339" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-18" edge="1" parent="1" source="xf25vULD14ypv7yNO1Zm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xf25vULD14ypv7yNO1Zm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Zakończony" vertex="1">
+          <mxGeometry height="40" width="120" x="339" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-20" edge="1" parent="1" source="xf25vULD14ypv7yNO1Zm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="xf25vULD14ypv7yNO1Zm-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="250" />
+              <mxPoint x="950" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Anulowany" vertex="1">
+          <mxGeometry height="40" width="120" x="630" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="xf25vULD14ypv7yNO1Zm-17" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="670" y="425" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
